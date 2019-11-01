@@ -1,0 +1,29 @@
+{
+  "name": "babel-plugin-ignore-import",
+  "version": "1.0.0",
+  "description": "Babel plugin to ignore import statements that match a particular pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test/",
+    "lint": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrishinrichs/babel-plugin-ignore-import.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrishinrichs/babel-plugin-ignore-import/issues"
+  },
+  "homepage": "https://github.com/chrishinrichs/babel-plugin-ignore-import#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "babel-plugin-tester": "^7.0.1",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {}
+}
