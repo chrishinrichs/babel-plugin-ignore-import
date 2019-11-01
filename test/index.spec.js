@@ -6,6 +6,6 @@ pluginTester({
   plugin,
   fixtures: path.join(__dirname, 'fixtures'),
   pluginOptions: {
-    pathRegex: /test_remove/
+    pathPattern: 'test_remove'
   }
 });

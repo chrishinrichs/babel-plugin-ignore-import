@@ -5,8 +5,8 @@ module.exports = declare(() => {
     name: 'ignore-import',
     visitor: {
       ImportDeclaration(path, state) {
-        const { pathRegex } = state.opts;
-        if (pathRegex && pathRegex.test(path.node.source.value)) {
+        const { pathPattern } = state.opts;
+        if (pathPattern && (new RegExp(pathPattern)).test(path.node.source.value)) {
           path.remove();
         }
       }
